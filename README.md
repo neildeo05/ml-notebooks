@@ -1,5 +1,10 @@
 # Pytorch cause why not
 
 # Lesson 1
+Linear Regression - predicting apple and orange growth due to factors like rainfall, temperature and humidity
 
-  Regression and what not
+regression-notes and regression implementation
+
+
+#Lesson 2
+
