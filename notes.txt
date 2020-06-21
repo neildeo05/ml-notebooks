@@ -1,0 +1,23 @@
+the linear regression model is pretty simple:
+you have a model, that takes in given inputs, and alters them by multiplying some weights and adding some biases
+
+this generates predictions, but usually they are way off in the beginning. However, you can apply gradient descent, which reduces the MSE loss
+
+then, you can make a prediction with any other input, based on the trained regression model, and it will probably make a good prediction
+
+so far logistic regression
+kinda like linear regression - you have inputs which are supposed to be a vector, but for images it is kinda hard, so you need to "flatten" it, or basically multiply the 
+dimensions together. So you should have the batches and the flattened out 2d image
+
+you can then create a model based on that, but it needs to be flattened out, so you have to do it manually
+
+you create a class, that inherits from nn.Module
+
+you have your constructor, which has a linear variable, that is the linear model
+
+then you can overwrite the forward function of the model, which you can change the shape of the tensor
+
+this allows for the model to make predictions, based on the inputs, which are a flattened out vector
+
+So far, the linear regression model and the logistic regression model are pretty similar
+
