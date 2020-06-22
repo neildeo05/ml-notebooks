@@ -21,3 +21,4 @@ this allows for the model to make predictions, based on the inputs, which are a 
 
 So far, the linear regression model and the logistic regression model are pretty similar
 
+When the outputs are probabilities of an item being a certain number, then the logistic regression model becomes a classification model
